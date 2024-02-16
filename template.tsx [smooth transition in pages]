@@ -1,3 +1,5 @@
+// create a template.tsx file in src/app/ directory and add this code
+
 'use client'
 
 import { motion } from 'framer-motion'
