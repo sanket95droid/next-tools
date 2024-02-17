@@ -1,0 +1,13 @@
+Dynamic Routes: When we are not sure about the route segment as we have dynamic data that keeps changing during a request 
+These routes can be created by creating a folder with the folder name wrapped with square brackets [ ]. [folderName]
+
+These routes are accessed using useRouter()
+
+
+## IMP
+Dynamic routes can be extended to catch-all subsequent segments by adding an ellipsis inside brackets [...folderName]
+EXAMPLE: /shop/[...slug].js  CATCHING: /shop/clothes AND /shop/clothes/top AND /shop/clothes/top/t-shirt       ("Basically Dynamic routes can extend")
+
+## IMP
+Dynamic routes can have optional catches as well and denoted as [[..folderName]]
+EXAMPLE: /shop/[[...slug]].js CATCHING: /shop AND /shop/clothes/top AND /shop/clothes/top/t-shirt       ("Basic difference route without parameter is also catched in this route, before in catch-all the parameter was compulsory")
