@@ -1,0 +1,4 @@
+## Analyze bundles
+Use the next bundle analyzer to investigate the build of your app. It is another crucial solution on how to optimize the Next.Js app bundle.
+Install the bundle analyzer using - npm install @next/bundle-analyzer and add the script to your packages - "analyze": "ANALYZE=true next build." 
+Finally, you can run the analyzer script after updating the next.config.js file.
