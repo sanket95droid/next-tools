@@ -1,0 +1,23 @@
+|-root
+  |-components
+    |-Navbar.js
+    |-Footer.js
+  |-styles
+    |-global.css 
+    |-navbar.module.css   
+    |-footer.module.css        
+  |-pages
+    |-api
+      |-users.js
+    |-index.js
+  |-utils
+    |- dbConnect.js
+
+
+Lets say we want to import dbConnect.js from pages/api/user.js
+
+Relative import:
+import dbConnect from '../../utils/dbConnect';
+
+Absolute import:
+import dbConnect from 'src/utils/dbConnect';
