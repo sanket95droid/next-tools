@@ -1,0 +1,27 @@
+Table with HTML entities in the format specified for all characters:
+
+| Character | Description             | HTML Entity   |
+|-----------|-------------------------|---------------|
+| <         | less than               | &lt;          |
+| >         | greater than            | &gt;          |
+| &         | ampersand               | &amp;         |
+| "         | double quotation mark   | &quot;        |
+| '         | single quotation mark   | &apos;        |
+| ¢         | cent                    | &cent;        |
+| £         | pound                   | &pound;       |
+| ¥         | yen                     | &yen;         |
+| €         | euro                    | &euro;        |
+| ©         | copyright               | &copy;        |
+| ®         | trademark               | &reg;         |
+| ←         | LEFTWARDS ARROW         | &larr;        |
+| ↑         | UPWARDS ARROW           | &uarr;        |
+| →         | RIGHTWARDS ARROW        | &rarr;        |
+| ↓         | DOWNWARDS ARROW         | &darr;        |
+| ↔         | LEFT RIGHT ARROW        | &harr;        |
+| ↕         | UP DOWN ARROW           | &varr;        |
+| ↖         | NORTH WEST ARROW        | &nwarr;       |
+| ↗         | NORTH EAST ARROW        | &nearr;       |
+| ↘         | SOUTH EAST ARROW        | &searr;       |
+| ↙         | SOUTH WEST ARROW        | &swarr;       |
+
+
